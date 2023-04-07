@@ -1,0 +1,16 @@
+<#@ template language="C#" #>
+<#@ output extension=".cs" #>
+<#@ parameter name="ClassName" type="System.String" #>
+
+using System;
+
+namespace MyNamespace
+{
+    public class <#= ClassName#>
+    {
+        public void MyMethod()
+        {
+            Console.WriteLine("Hello, world!");
+        }
+    }
+}
